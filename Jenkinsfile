@@ -9,10 +9,10 @@ pipeline {
             }
         }
 
-        /*stage('Deploy to Nginx') {
+        stage('Deploy to Nginx') {
             steps {
-                sh 'cp -f /var/lib/jenkins/workspace/nginx/index.html /usr/share/nginx/html/index.html'
+                sh 'cp -f /var/lib/jenkins/workspace/Nginx/index.html /usr/share/nginx/html/index.html'
             }
-        }*/
+        }
     }
 }
