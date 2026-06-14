@@ -13,6 +13,6 @@ pipeline {
             steps {
                 sh 'cp -f /var/lib/jenkins/workspace/nginx/index.html /usr/share/nginx/html/index.html'
             }
-        }
+        }*/
     }
-}*/
+}
